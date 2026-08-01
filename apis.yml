@@ -1,8 +1,28 @@
 aid: showrunner
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/showrunner.png
 name: Showrunner
-description: 'Showrunner is a company surfaced as a portfolio company of forerunner-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Showrunner is an AI streaming and animation platform built by Fable Simulation
+  (founded by Edward Saatchi) and billed as the "Netflix of AI." It lets users
+  create and watch AI-generated serialized animated television shows across
+  genres, acting as directors to write, produce, voice, and remix full episodes
+  within simulated worlds such as Sim Francisco, alongside flagship series like
+  Exit Valley. The platform is powered by Fable's proprietary SHOW-2 model and is
+  delivered as a consumer iOS app and Discord community. Showrunner publishes no
+  first-party developer API; its public site is a Wix-hosted marketing property
+  that exposes the standard Wix Site MCP endpoint for agentic access to public
+  site content.
 url: https://raw.githubusercontent.com/api-evangelist/showrunner/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai
+- Generative AI
+- Animation
+- Entertainment
+- Media
+- Streaming
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: LLMsTxt
+  url: llms/showrunner-llms.txt
+- type: MCPServer
+  url: mcp/showrunner-mcp.yml
+- type: DomainSecurity
+  url: security/showrunner-domain-security.yml
 - type: Website
-  url: https://showrunner.xyz
+  url: https://www.showrunner.xyz/
+- type: PrivacyPolicy
+  url: https://www.showrunner.xyz/privacypolicy
+- type: TermsOfService
+  url: https://www.showrunner.xyz/termsofservice
+- type: Support
+  url: https://discord.gg/showrunner
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://www.showrunner.xyz/llms.txt
+notes: >-
+  Showrunner (Fable Simulation) publishes no first-party product API. Its public
+  website is hosted on Wix, which exposes a standard Wix Site MCP endpoint for
+  agentic access to public site content. The tools below are the generic Wix
+  Site MCP toolset (not Showrunner-specific product operations); captured
+  verbatim from the site's published llms.txt. No authentication is required to
+  connect; only public site information is accessible.
+server:
+  name: Showrunner Site MCP (Wix)
+  transport: http
+  url: https://www.showrunner.xyz/_api/mcp
+  provider: Wix Site MCP
+  docs: https://dev.wix.com/docs/develop-websites/articles/get-started/about-the-wix-site-mcp
+  auth_required: false
+tools:
+- name: GetBusinessDetails
+  description: Retrieves business and site details such as timezone, email, phone, and address.
+- name: SearchInSite
+  description: Searches the site for information.
+- name: SearchSiteApiDocs
+  description: Retrieves the API documentation for the Wix business solutions installed on this site.
+- name: GenerateVisitorToken
+  description: Creates a new visitor session and obtains a visitor access token for the site.
+- name: CallWixSiteAPI
+  description: Calls API methods on the site to perform actions on a visitor's behalf (query data, book, start a purchase).
+- name: ReadFullDocsArticle
+  description: Fetches a complete article from the Wix developer documentation portal.
+- name: ReadFullDocsMethodSchema
+  description: Fetches the full schema for a Wix API method.
