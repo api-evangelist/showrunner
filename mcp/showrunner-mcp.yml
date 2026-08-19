@@ -2,13 +2,11 @@ generated: '2026-07-21'
 method: searched
 status: published
 source: https://www.showrunner.xyz/llms.txt
-notes: >-
-  Showrunner (Fable Simulation) publishes no first-party product API. Its public
-  website is hosted on Wix, which exposes a standard Wix Site MCP endpoint for
-  agentic access to public site content. The tools below are the generic Wix
-  Site MCP toolset (not Showrunner-specific product operations); captured
-  verbatim from the site's published llms.txt. No authentication is required to
-  connect; only public site information is accessible.
+notes: Showrunner (Fable Simulation) publishes no first-party product API. Its public website is hosted
+  on Wix, which exposes a standard Wix Site MCP endpoint for agentic access to public site content. The
+  tools below are the generic Wix Site MCP toolset (not Showrunner-specific product operations); captured
+  verbatim from the site's published llms.txt. No authentication is required to connect; only public site
+  information is accessible.
 server:
   name: Showrunner Site MCP (Wix)
   transport: http
@@ -26,8 +24,16 @@ tools:
 - name: GenerateVisitorToken
   description: Creates a new visitor session and obtains a visitor access token for the site.
 - name: CallWixSiteAPI
-  description: Calls API methods on the site to perform actions on a visitor's behalf (query data, book, start a purchase).
+  description: Calls API methods on the site to perform actions on a visitor's behalf (query data, book,
+    start a purchase).
 - name: ReadFullDocsArticle
   description: Fetches a complete article from the Wix developer documentation portal.
 - name: ReadFullDocsMethodSchema
   description: Fetches the full schema for a Wix API method.
+deployment:
+  mode: remote
+  endpoint: https://www.showrunner.xyz/_api/mcp
+  verified: probed
+  probe: http-200
+  checked: '2026-08-12'
+  source: catalog MCP census
