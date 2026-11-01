@@ -64,6 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Showrunner is a company surfaced as a portfolio company of forerunner-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Showrunner is an AI streaming and animation platform built by Fable Simulation (founded by Edward Saatchi) and billed as the "Netflix of AI." It lets users create and watch AI-generated serialized animated television shows across genres, acting as directors to write, produce, voice, and remix full episodes within simulated worlds such as Sim Francisco, alongside flagship series like Exit Valley. The platform is powered by Fable's proprietary SHOW-2 model and is delivered as a consumer iOS app and Discord community. Showrunner publishes no first-party developer API; its public site is a Wix-hosted marketing property that exposes the standard Wix Site MCP endpoint for agentic access to public site content.
 
-Backed by: forerunner-ventures — https://showrunner.xyz
+**Areas:** Company · Artificial Intelligence · Generative AI · Animation · Entertainment · Media · Streaming
+
+## Showrunner on APIs.io
+
+Everything profiled for Showrunner is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/showrunner/](https://apis.io/providers/showrunner/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [Showrunner Site MCP (Wix)](https://apis.io/servers/showrunner/showrunner-site-mcp-wix/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Showrunner Domain Security](https://apis.io/security/showrunner/showrunner-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.showrunner.xyz/)
+- [Support](https://discord.gg/showrunner)
+- [Terms of service](https://www.showrunner.xyz/termsofservice)
+- [Privacy policy](https://www.showrunner.xyz/privacypolicy)
+
+## API Evangelist rating
+
+**Kin Score 10.2** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 3.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 12.7** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/showrunner/](https://apis.io/providers/showrunner/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Showrunner: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/showrunner/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
